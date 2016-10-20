@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #gtco-header {
-  background: #fdd035;
+  background: #fff;
 }
 @media screen and (max-width: 768px) {
   #gtco-header.gtco-cover {
@@ -451,6 +451,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-cover {
   height: 900px;
+  background-color: aliceblue;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -473,6 +474,16 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.gtco-cover .statis {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .gtco-cover > .gtco-container {
   position: relative;
   z-index: 10;
@@ -3668,6 +3679,9 @@ section button:hover {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
+/* After Login */
+
 
 
 /* sampe sini */
